@@ -1,0 +1,178 @@
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.style_red{
+    color: #c81623;
+}
+
+ /* 头部模块header start */
+ .header{
+    height: 85px;
+border-bottom: 2px solid #c81523;
+   }
+/* 左logo模块start */
+   .logo{
+      padding-top: 18px;
+   }
+
+   .logo a{ 
+       display: block;
+       width: 171px;
+       height: 61px;
+       background: url(../images/logo.png) no-repeat;
+   }
+/* 左logo模块end */
+
+
+.registerarea{
+    height: 520px;
+    margin-top: 20px;
+    position: relative;
+    border: #ccc 1px solid;
+}
+
+.reg_nav{
+    height: 40px;
+    line-height: 40px;
+  border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding:0 10px;
+   
+}
+
+.reg_nav .new{
+    font-size: 18px;
+
+}
+
+.reg_nav .fr{
+    font-size: 14px;
+}
+
+.reg_from {
+    width: 600px;
+   margin: 50px auto 0;
+}
+.reg_from ul li{
+    margin-bottom: 20px;
+}
+
+.reg_from ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+
+}
+
+
+.reg_from ul li .inp{
+    width: 240px;
+    height: 35px;
+    border: #ccc solid 1px;
+}
+
+.error_icon,
+.success_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.success{
+    
+    color: #40b83f;
+   
+}
+
+.success_icon{
+   
+    background: url(../images/success.png) no-repeat;
+   
+}
+
+.safe{
+padding-left: 165px
+}
+
+.safe span{
+    padding: 0 12px;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.agree{
+    padding-left: 95px;
+}
+
+.agree input{
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+
+}
+
+.ruo{
+    background-color: #c81523;
+}
+
+.zhong{
+    background-color: #40b83f;
+}
+
+.qiang{
+    background-color: #f79100;
+}
+
+
+.agree a{
+    color: #aed9f5;
+}
+
+
+.button{
+    display: block;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #c81623;
+    color:#fff;
+
+}
+
+.footer{
+
+    margin: 20px 0 15px 0;
+    text-align: center;
+}
+
+.footer ul li{
+
+padding-bottom: 10px;
+
+}
+
+.footer ul li a{
+    padding: 0 3px;
+}
+
+h6{
+    vertical-align: middle;
+    display: inline-block;
+    color: #40b83f;
+}
